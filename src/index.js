@@ -1,3 +1,3 @@
 import "./style.css";
-
-console.log("Hello world");
+import "./fibonacci";
+import "./mergeSort";
