@@ -1,5 +1,5 @@
 // Fibonacci iterative
-function fibonacciIterate(num) {
+function fibonacciIterative(num) {
   const fibArr = [0, 1];
   for (let i = 2; i < num; i += 1) {
     const a = fibArr[i - 2];
@@ -10,10 +10,8 @@ function fibonacciIterate(num) {
   return fibArr;
 }
 
-console.log(fibonacciIterate(8));
-
 // Fibonacci recursive
-function fibonacciArray(n) {
+function fibonacciRecursive(n) {
   const result = [];
 
   function calculateFibonacci(i) {
@@ -30,5 +28,6 @@ function fibonacciArray(n) {
   return result;
 }
 
-const fibArray = fibonacciArray(8);
-console.log(fibArray);
+/* Driver Script */
+console.log(fibonacciIterative(8));
+console.log(fibonacciRecursive(8));

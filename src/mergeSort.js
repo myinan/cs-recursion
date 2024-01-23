@@ -38,7 +38,7 @@ function mergeSort(array) {
   return merge(sortedLeft, sortedRight);
 }
 
-// Example usage:
+/* Driver script */
 const unsortedArray = [3, 2, 1, 13, 8, 5, 0, 1];
 const sortedArray = mergeSort(unsortedArray);
 console.log(sortedArray);
